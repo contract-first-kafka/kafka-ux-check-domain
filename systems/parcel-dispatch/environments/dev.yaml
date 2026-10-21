@@ -1,0 +1,5 @@
+systemName: parcel-dispatch
+groupId: io.github.contractfirstkafka.kafkaux.parceldispatch
+repository:
+  cloneUrl: https://github.com/contract-first-kafka/parcel-dispatch-system.git
+  revision: main
