@@ -20,8 +20,8 @@ spec:
   groupId: io.github.contractfirstkafka.kafkaux
   eventCatalog:
     enabled: true
-    image: registry-quay-quay.apps.cluster-ggvsm.dyn.redhatworkshops.io/openshift_kafka-ux-check-catalog/eventcatalog@sha256:07f9545b0419186d3cc84ae3249688ecb3bdb8bbc122d401f17a45a4c95d464b
-    inputDigest: 2b66bba53fd9b9351110175da40119be526db72d8c385a3c0631711931dc2565
+    image: registry-quay-quay.apps.cluster-ggvsm.dyn.redhatworkshops.io/openshift_kafka-ux-check-catalog/eventcatalog@sha256:96b92b7c24cf0b9f98db188efa42dcd261ef56fa55fb10460a42465db29d86f2
+    inputDigest: dcb08094216e532e714975eca1335ddbc099ac59022c19022934a8a375a21ffe
   environments:
     order:
       - dev
