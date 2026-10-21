@@ -3,7 +3,8 @@ kind: Domain
 metadata:
   name: kafka-ux-check
   title: Kafka UX validation
-  description: Disposable end-to-end validation of simplified Kafka Component selection; retain for inspection.
+  description: Disposable end-to-end validation of simplified Kafka Component
+    selection; retain for inspection.
   annotations:
     contract-first-idp.github.io/scm-provider: github
     contract-first-idp.github.io/scm-host: github.com
@@ -19,10 +20,12 @@ spec:
   groupId: io.github.contractfirstkafka.kafkaux
   eventCatalog:
     enabled: true
+    image: registry-quay-quay.apps.cluster-ggvsm.dyn.redhatworkshops.io/openshift_kafka-ux-check-catalog/eventcatalog@sha256:07f9545b0419186d3cc84ae3249688ecb3bdb8bbc122d401f17a45a4c95d464b
+    inputDigest: 2b66bba53fd9b9351110175da40119be526db72d8c385a3c0631711931dc2565
   environments:
     order:
       - dev
     build: dev
     definitions:
       dev:
-        namespaceSuffix: "-dev"
+        namespaceSuffix: -dev
